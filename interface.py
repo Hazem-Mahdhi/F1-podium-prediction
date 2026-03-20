@@ -170,8 +170,7 @@ def run_prediction(circuit_name, lstm_model, hybrid_model, lstm_circuits, maps_h
     return df_res
 
 # --- INTERFACE ---
-st.title("🏎️ F1 Oracle 2025")
-st.markdown("Système de prédiction Hybride (Deep Learning + Machine Learning)")
+st.title("🏎️ F1 Podium prediction")
 
 tab1, tab2, tab3 = st.tabs(["🔮 Prédiction", "⚙️ Entraînement", "📊 Visualisation"])
 
