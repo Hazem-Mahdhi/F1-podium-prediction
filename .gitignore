@@ -1,4 +1,23 @@
+# Modèles entraînés (trop lourds pour Git)
+*.pth
+*.pkl
+*.pt
+
+# Environnement Python
+venv/
 __pycache__/
 *.pyc
-*.pyd
-*.venv
+*.pyo
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
